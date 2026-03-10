@@ -19,7 +19,6 @@ public class PolainaLauraEjer1 {
 
             System.out.println("----- LOTERIA -----");
             System.out.println("1. Comprobar decimo");
-            System.out.println("2. Resumen premios");
             System.out.println("0. Salir");
 
             opcion = sc.nextInt();
@@ -51,13 +50,7 @@ public class PolainaLauraEjer1 {
                 System.out.printf("Decimo %05d\n", decimo);
             }
 
-            if(opcion == 2){
 
-                System.out.println("Primer premio: " + gordo);
-                System.out.println("Segundo premio: " + segundo);
-                System.out.println("Tercer premio: " + tercero);
-
-            }
 
         }
 
