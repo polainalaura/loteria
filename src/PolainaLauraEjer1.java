@@ -23,32 +23,7 @@ public class PolainaLauraEjer1 {
 
             opcion = sc.nextInt();
 
-            if(opcion == 1){
 
-                int decimo;
-                int importe;
-
-                System.out.print("Introduce numero de decimo: ");
-                decimo = sc.nextInt();
-
-                System.out.print("Introduce importe jugado: ");
-                importe = sc.nextInt();
-
-                if(decimo == gordo){
-                    System.out.println("Primer premio!! Has ganado " + (importe * 20000) + "€");
-                }
-                else if(decimo == segundo){
-                    System.out.println("Segundo premio!! Has ganado " + (importe * 6250) + "€");
-                }
-                else if(decimo == tercero){
-                    System.out.println("Tercer premio!! Has ganado " + (importe * 2500) + "€");
-                }
-                else{
-                    System.out.println("Lo siento no has tenido suerte");
-                }
-
-                System.out.printf("Decimo %05d\n", decimo);
-            }
 
 
 
